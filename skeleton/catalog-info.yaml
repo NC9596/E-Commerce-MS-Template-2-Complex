@@ -30,7 +30,7 @@ metadata:
   name: CustomerManagement
   description: ${{ values.description }}
   links:
-    - url: http://localhost:9901/CustomerManagement/
+    - url: http://localhost:9901/swagger-ui.html
       title: CustomerManagement Website
       icon: dashboard
 spec:
@@ -49,7 +49,7 @@ metadata:
   name: ProductManagement
   description: ${{ values.description }}
   links:
-    - url: http://localhost:9901/ProductManagement/
+    - url: http://localhost:9904/swagger-ui.html
       title: ProductManagement Website
       icon: dashboard
 spec:
@@ -68,7 +68,7 @@ metadata:
   name: OrderManagement
   description: ${{ values.description }}
   links:
-    - url: http://localhost:9901/OrderManagement/
+    - url: http://localhost:9903/swagger-ui.html
       title: OrderManagement Website
       icon: dashboard
 spec:
@@ -90,7 +90,7 @@ metadata:
   name: PaymentManagement
   description: ${{ values.description }}
   links:
-    - url: http://localhost:9901/PaymentManagement/
+    - url: http://localhost:9905/swagger-ui.html
       title: PaymentManagement Website
       icon: dashboard
 spec:
